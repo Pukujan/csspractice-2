@@ -1,0 +1,143 @@
+<html>
+
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .header {
+        background-color: #333;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .header h1 {
+        color: #fff;
+        font-size: 3em;
+        margin: 0;
+      }
+
+      .menu {
+        position: fixed;
+        left: 0;
+        top: 20%;
+        bottom: 0;
+        width: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2% 0;
+      }
+
+      .menu a {
+        font-size: 1.5em;
+        color: #333;
+        text-decoration: none;
+        margin: 1% 0;
+      }
+
+      .section {
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .section img {
+        width: 50%;
+      }
+
+      .section h2 {
+        font-size: 2em;
+        margin: 2% 0;
+      }
+
+      .section p {
+        font-size: 1.5em;
+        margin: 0;
+        width: 60%;
+        text-align: center;
+      }
+
+      .main {
+        overflow: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Logo</h1>
+    </div>
+    <div class="menu">
+      <a href="#section1">Section 1</a>
+      <a href="#section2">Section 2</a>
+      <a href="#section3">Section 3</a>
+    </div>
+    <div id="section1" class="section">
+      <img src="image1.jpg" alt="Image 1">
+      <h2>Title 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna eget congue sollicitudin, purus
+        risus pretium magna, non tempor nisl leo a eros. Sed commodo lorem sed ante tempor, in volutpat lorem auctor.
+      </p>
+    </div>
+    <div id="section2" class="section">
+      <img src="image2.jpg" alt="Image 2">
+      <h2>Title 2</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna eget congue sollicitudin, purus
+        risus pretium magna, non tempor nisl leo a eros. Sed commodo lorem sed ante tempor, in volutpat lorem auctor.
+      </p>
+    </div>
+
+    <body>
+      <div class="top">
+        <img src="logo.png" alt="Logo">
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#section1">Section 1</a></li>
+          <li><a href="#section2">Section 2</a></li>
+          <li><a href="#section3">Section 3</a></li>
+        </ul>
+      </div>
+      <div class="main">
+        <div class="section" id="section1">
+          <div class="content">
+            <h2>Section 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum mi ac ex convallis, eu semper quam
+              varius. Nam euismod tincidunt justo in aliquam. Nam gravida, metus eu dapibus sollicitudin, nisl nisi
+              pellentesque nisi, eget iaculis quam odio vel velit. Sed eget fringilla ex, sit amet tempus lectus.</p>
+          </div>
+          <div class="image">
+            <img src="section1.jpg" alt="Section 1 Image">
+          </div>
+        </div>
+        <div class="section" id="section2">
+          <div class="content">
+            <h2>Section 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum mi ac ex convallis, eu semper quam
+              varius. Nam euismod tincidunt justo in aliquam. Nam gravida, metus eu dapibus sollicitudin, nisl nisi
+              pellentesque nisi, eget iaculis quam odio vel velit. Sed eget fringilla ex, sit amet tempus lectus.</p>
+          </div>
+          <div class="image">
+            <img src="section2.jpg" alt="Section 2 Image">
+          </div>
+        </div>
+        <div class="section" id="section3">
+          <div class="content">
+            <h2>Section 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum mi ac ex convallis, eu semper quam
+              varius. Nam euismod tincidunt justo in aliquam. Nam gravida, metus eu dapibus sollicitudin, nisl nisi
+              pellentesque nisi, eget iaculis quam odio vel velit. Sed eget fringilla ex, sit amet tempus lectus.</p>
+          </div>
+          <div class="image">
+            <img src="section3.jpg" alt="Section 3 Image">
+          </div>
+        </div>
+      </div>
+    </body>
